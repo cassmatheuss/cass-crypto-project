@@ -79,7 +79,7 @@ export default function Navbar() {
             }`}
             style={{ width: "100%", maxWidth: "20rem" }}
           >
-            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0">
+            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0 underline-offset-8">
               {navLinks.map((link) => (
                 <li key={link.route}>
                   <Link

@@ -3,26 +3,43 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 export const heroHeader: HeroHeader = {
   header: `Cass`,
   subheader: `Crypto-Stuff Web-developer`,
-  image: `/cass_coin.png`,
+  image: `/eu-nobg.png`,
 }
 
 export const featureCards: ContentSection = {
-  header: `Powered by`,
-  subheader: `What makes Next Landing possible`,
+  header: `About`,
+  subheader: `Main informations about the services.`,
   content: [
     {
-      text: `Next.js`,
-      subtext: `The React Framework`,
+      text: `Technologies`,
+      subtext: `Current and easy-to-maintain technologies:
+      Nextjs, Tailwind, React and Typescript.  
+      `,
       icon: "nextjs",
     },
     {
-      text: `shadcn/ui`,
-      subtext: `Beautifully designed components`,
+      text: `Entire Code`,
+      subtext: `You have the power to rewrite whatever you want, and modify it in your own way.`,
       icon: "shadcnUi",
     },
     {
-      text: `Vercel`,
-      subtext: `Develop. Preview. Ship.`,
+      text: `Focused on Crypto`,
+      subtext: `Developed by a Cryptocurrency Investor, for the Crypto community.`,
+      icon: "vercel",
+    },
+    {
+      text: `Pay in Crypto`,
+      subtext: `Payment with crypto, fast and secure. Half after design, and half after delivery. Fast, and Safe.`,
+      icon: "vercel",
+    },
+    {
+      text: `Responsive Application`,
+      subtext: `Responsive application, working on any device, regardless of screen size.`,
+      icon: "vercel",
+    },
+    {
+      text: `Fast Delivery`,
+      subtext: `Application delivered within a maximum of 48 hours after ordering.`,
       icon: "vercel",
     },
   ],

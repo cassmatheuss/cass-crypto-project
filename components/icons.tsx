@@ -1,7 +1,5 @@
 import Image from "next/image"
 import {
-  BsMoonStars,
-  BsSun,
   BsChevronLeft,
   BsChevronRight,
   BsChevronUp,
@@ -9,6 +7,7 @@ import {
   BsFire,
   BsCheck2,
 } from "react-icons/bs"
+import { FaMoon, FaSun } from "react-icons/fa";
 import {
   AiOutlineEllipsis,
   AiOutlineWarning,
@@ -73,8 +72,8 @@ const icons = {
   settings: LuSettings,
 
   // Mode Toggle
-  moon: BsMoonStars,
-  sun: BsSun,
+  moon: FaMoon,
+  sun: FaSun,
 
   // Navigation
   back: BsChevronLeft,

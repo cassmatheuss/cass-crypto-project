@@ -15,32 +15,32 @@ export const featureCards: ContentSection = {
       subtext: `Current and easy-to-maintain technologies:
       Nextjs, Tailwind, React and Typescript.  
       `,
-      icon: "nextjs",
+      icon: "react",
     },
     {
       text: `Entire Code`,
       subtext: `You have the power to rewrite whatever you want, and modify it in your own way.`,
-      icon: "shadcnUi",
+      icon: "code",
     },
     {
       text: `Focused on Crypto`,
       subtext: `Developed by a Cryptocurrency Investor, for the Crypto community.`,
-      icon: "vercel",
+      icon: "crypto",
     },
     {
       text: `Pay in Crypto`,
       subtext: `Payment with crypto, fast and secure. Half after design, and half after delivery. Fast, and Safe.`,
-      icon: "vercel",
+      icon: "transfer",
     },
     {
       text: `Responsive Application`,
       subtext: `Responsive application, working on any device, regardless of screen size.`,
-      icon: "vercel",
+      icon: "responsive",
     },
     {
       text: `Fast Delivery`,
       subtext: `Application delivered within a maximum of 48 hours after ordering.`,
-      icon: "vercel",
+      icon: "email",
     },
   ],
 }

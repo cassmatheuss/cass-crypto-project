@@ -9,7 +9,7 @@ export default function HeroHeader() {
   return (
     <section className="container flex gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-2 lg:py-20">
       {heroHeader.image !== "" ? (
-        <div className="flex flex-1 justify-center lg:justify-end">
+        <div className="flex flex-1 invisible justify-center animate-pulse hover:animate-none lg:justify-end md:visible">
           <Image
             src={heroHeader.image}
             width={500}
@@ -30,9 +30,9 @@ export default function HeroHeader() {
           </h2>
         </div>
         <Link
-          href="https://github.com/redpangilinan/next-shadcn-landing"
+          href="https://t.me/cassmaaa"
           target="_blank"
-          className={`w-[25rem] ${cn(buttonVariants({ size: "lg" }))}`}
+          className={`w-[25rem] hover:scale-105 ${cn(buttonVariants({ size: "lg" }))}`}
         >
           <FaTelegramPlane size={30}/>
         </Link>

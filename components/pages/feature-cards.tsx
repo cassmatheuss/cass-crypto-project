@@ -20,7 +20,7 @@ export default function FeatureCards() {
             return (
               <Card
                 key={cards.text}
-                className="flex flex-grow flex-col items-center justify-between gap-4 p-8 dark:bg-secondary"
+                className="flex flex-grow flex-col items-center justify-between gap-4 p-8 dark:bg-secondary hover:scale-105"
               >
                 <div className="flex">
                   <Icon className="h-[6rem] w-[6rem]" />

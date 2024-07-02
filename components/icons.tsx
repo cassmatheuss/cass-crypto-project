@@ -32,10 +32,10 @@ const icons = {
   blank: () => {
     return <></>
   },
-  nextjs: () => {
+  react: () => {
     return (
       <Image
-        src="next.svg"
+        src="react.svg"
         className="dark:brightness-0 dark:invert-[1]"
         width={100}
         height={100}
@@ -43,10 +43,10 @@ const icons = {
       />
     )
   },
-  shadcnUi: () => {
+  code: () => {
     return (
       <Image
-        src="shadcn-ui.svg"
+        src="code.svg"
         className="dark:brightness-0 dark:invert-[1]"
         width={100}
         height={100}
@@ -54,10 +54,10 @@ const icons = {
       />
     )
   },
-  vercel: () => {
+  crypto: () => {
     return (
       <Image
-        src="vercel.svg"
+        src="crypto.svg"
         className="dark:brightness-0 dark:invert-[1]"
         width={100}
         height={100}
@@ -65,6 +65,40 @@ const icons = {
       />
     )
   },
+  transfer: () => {
+    return (
+      <Image
+        src="transfer.svg"
+        className="dark:brightness-0 dark:invert-[1]"
+        width={100}
+        height={100}
+        alt="Card image"
+      />
+    )
+  },
+  responsive: () => {
+    return (
+      <Image
+        src="responsive.svg"
+        className="dark:brightness-0 dark:invert-[1]"
+        width={100}
+        height={100}
+        alt="Card image"
+      />
+    )
+  },
+  email: () => {
+    return (
+      <Image
+        src="email.svg"
+        className="dark:brightness-0 dark:invert-[1]"
+        width={100}
+        height={100}
+        alt="Card image"
+      />
+    )
+  },
+
 
   // Features
   fileSearch: AiOutlineFileSearch,

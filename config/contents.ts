@@ -2,7 +2,7 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 
 export const heroHeader: HeroHeader = {
   header: `Cass`,
-  subheader: `Crypto-Stuff Web-developer`,
+  subheader: `Crypto-Stuff Web-Developer`,
   image: `/coin.gif`,
 }
 

@@ -3,10 +3,11 @@ import Image from "next/image"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { heroHeader } from "@/config/contents"
+import { FaTelegramPlane } from "react-icons/fa";
 
 export default function HeroHeader() {
   return (
-    <section className="container flex gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-8 lg:py-20">
+    <section className="container flex gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-2 lg:py-20">
       {heroHeader.image !== "" ? (
         <div className="flex flex-1 justify-center lg:justify-end">
           <Image
@@ -20,7 +21,7 @@ export default function HeroHeader() {
         <></>
       )}
       <div className="flex flex-1 flex-col items-center gap-4 text-center lg:gap-8">
-        <div className="space-y-4">
+        <div className="space-y-2">
           <h1 className="text-4xl font-bold lg:text-6xl">
             {heroHeader.header}
           </h1>
@@ -31,9 +32,9 @@ export default function HeroHeader() {
         <Link
           href="https://github.com/redpangilinan/next-shadcn-landing"
           target="_blank"
-          className={`w-[10rem] ${cn(buttonVariants({ size: "lg" }))}`}
+          className={`w-[25rem] ${cn(buttonVariants({ size: "lg" }))}`}
         >
-          Get started
+          <FaTelegramPlane size={30}/>
         </Link>
       </div>
     </section>

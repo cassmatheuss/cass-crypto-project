@@ -9,7 +9,7 @@ export default function HeroHeader() {
   return (
     <section className="container flex gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-2 lg:py-20">
       {heroHeader.image !== "" ? (
-        <div className="flex flex-1 invisible justify-center animate-pulse hover:animate-none lg:justify-end md:visible">
+        <div className="flex flex-1 invisible justify-center lg:justify-end md:visible">
           <Image
             src={heroHeader.image}
             width={500}

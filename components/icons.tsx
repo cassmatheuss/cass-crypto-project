@@ -17,10 +17,11 @@ import {
 } from "react-icons/ai"
 import { MdDeleteForever, MdOutlineLogout } from "react-icons/md"
 import { BiHistory, BiCalendar, BiBarChartAlt } from "react-icons/bi"
-import { FaUserAlt, FaSort } from "react-icons/fa"
+import { FaUserAlt, FaSort, FaBook  } from "react-icons/fa"
 import { ImSpinner8, ImStatsBars } from "react-icons/im"
 import { RxMixerHorizontal } from "react-icons/rx"
 import { LuSettings } from "react-icons/lu"
+import { IoLanguage } from "react-icons/io5";
 
 export type IconKeys = keyof typeof icons
 
@@ -101,9 +102,8 @@ const icons = {
 
 
   // Features
-  fileSearch: AiOutlineFileSearch,
-  barChart: BiBarChartAlt,
-  settings: LuSettings,
+  book: FaBook,
+  language: IoLanguage,
 
   // Mode Toggle
   moon: FaMoon,

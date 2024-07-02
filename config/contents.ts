@@ -3,11 +3,11 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 export const heroHeader: HeroHeader = {
   header: `Cass`,
   subheader: `Crypto-Stuff Web-developer`,
-  image: `/eu-nobg.png`,
+  image: `/coin.gif`,
 }
 
 export const featureCards: ContentSection = {
-  header: `About`,
+  header: `Services`,
   subheader: `Main informations about the services.`,
   content: [
     {
@@ -46,24 +46,24 @@ export const featureCards: ContentSection = {
 }
 
 export const features: ContentSection = {
-  header: `Features`,
-  subheader: `Why use Next Landing?`,
-  image: `/features-img.webp`,
+  header: `About`,
+  subheader: `Some informations about me.`,
+  image: `/eu_bg.png`,
   content: [
     {
-      text: `SEO Optimized`,
-      subtext: `Improved website visibility on search engines`,
-      icon: "fileSearch",
+      text: `Languages I speak`,
+      subtext: `I'm a Portuguese native speaker, but I can speak English and a little bit of Spanish too!`,
+      icon: "language",
     },
     {
-      text: `Highly Performant`,
-      subtext: `Fast loading times and smooth performance`,
-      icon: "barChart",
+      text: `Past Experience`,
+      subtext: `I've done full stack work for small and medium-sized companies, and I currently work as a freelancer.`,
+      icon: "calendar",
     },
     {
-      text: `Easy Customizability`,
-      subtext: `Change your content and layout with little effort`,
-      icon: "settings",
+      text: `Knowledges`,
+      subtext: `I have been a crypto enthusiast since 2018 and am currently also a Computer Science student.`,
+      icon: "book",
     },
   ],
 }

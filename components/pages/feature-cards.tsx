@@ -6,7 +6,7 @@ import { Icons } from "@/components/icons"
 
 export default function FeatureCards() {
   return (
-    <section className="bg-primary" id="about">
+    <section className="bg-primary" id="services">
       <div className="container space-y-8 py-12 text-center lg:py-20">
         {featureCards.header || featureCards.subheader ? (
           <HeadingText subtext={featureCards.subheader}>

@@ -25,10 +25,10 @@ export default function Features() {
                   <Icon className="h-[6rem] w-[6rem]" />
                 </div>
                 <div className="flex-1">
-                  <p className="md:text4xl text-2xl font-semibold">
+                  <p className="md:text4xl text-2xl font-semibold text-primary-foreground">
                     {cards.text}
                   </p>
-                  <p className="font-light text-muted-foreground md:text-lg">
+                  <p className="font-light text-primary-foreground md:text-lg">
                     {cards.subtext}
                   </p>
                 </div>

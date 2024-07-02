@@ -1,12 +1,12 @@
 import "./globals.css"
 import { siteConfig } from "@/config/site"
-import { Inter } from "next/font/google"
+import { Poppins } from "next/font/google"
 import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { settings } from "@/config/settings"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Poppins({ subsets: ["latin"], weight: "400" })
 
 export const metadata = {
   icons: {

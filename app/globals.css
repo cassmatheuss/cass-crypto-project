@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Pouttu";
+  src: url("../public/pouttu.TTF");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

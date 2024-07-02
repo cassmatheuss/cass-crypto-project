@@ -22,7 +22,7 @@ export default function HeroHeader() {
       )}
       <div className="flex flex-1 flex-col items-center gap-4 text-center lg:gap-8">
         <div className="space-y-2">
-          <h1 className="text-4xl font-bold lg:text-6xl">
+          <h1 className="text-4xl text-stroke-primary-foreground text-stroke-1 dark:text-stroke-transparent dark:text-stroke-0 font-pouttu lg:text-6xl">
             {heroHeader.header}
           </h1>
           <h2 className="text-lg font-light text-muted-foreground lg:text-3xl">

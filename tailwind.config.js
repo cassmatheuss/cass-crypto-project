@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        pouttu: ['Pouttu', 'serif'],
+      },
       colors: {
         border: "var(--border)",
         input: "var(--input)",
@@ -72,5 +75,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@designbycode/tailwindcss-text-stroke")],
 }
